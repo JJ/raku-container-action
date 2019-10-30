@@ -1,6 +1,6 @@
 name: 'Raku Container Action'
 description: 'Container action using Raku'
-author: 'GitHub'
+author: 'JJ'
 runs:
   using: 'docker'
   image: 'Dockerfile'
