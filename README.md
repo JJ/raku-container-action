@@ -18,3 +18,5 @@ jobs:
       id: tests
       uses: JJ/raku-container-action@master
 ```
+
+See it in action, for instance in [this repo](https://github.com/JJ/perl6-unicode-security/actions)

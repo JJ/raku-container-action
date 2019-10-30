@@ -4,4 +4,6 @@ author: 'JJ'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-
+branding:
+  icon: 'git-pull-request'
+  color: 'purple'
