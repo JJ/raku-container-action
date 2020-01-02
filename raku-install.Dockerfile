@@ -1,5 +1,5 @@
 FROM jjmerelo/alpine-perl6:latest
-LABEL version="4.0.2" maintainer="JJ Merelo <jjmerelo@GMail.com>"
+LABEL version="1.0.0" maintainer="JJ Merelo <jjmerelo@GMail.com>"
 
 # Set up dirs
 
