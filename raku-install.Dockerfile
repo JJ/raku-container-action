@@ -7,6 +7,7 @@ ENV PATH="/root/.rakudobrew/versions/moar-2019.11/install/bin:/root/.rakudobrew/
 RUN mkdir /test
 VOLUME /test
 WORKDIR /test
+ADD META6.json .
 RUN zef install --deps-only .
 
 # Will run this
