@@ -1,5 +1,5 @@
 FROM jjmerelo/alpine-raku:latest
-LABEL version="5.0.0" maintainer="JJ Merelo <jjmerelo@GMail.com>"
+LABEL version="5.0.1" maintainer="JJ Merelo <jjmerelo@GMail.com>"
 
 USER root
 RUN mkdir /test
