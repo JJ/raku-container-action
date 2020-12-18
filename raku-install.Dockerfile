@@ -6,7 +6,6 @@ RUN mkdir /test
 VOLUME /test
 WORKDIR /test
 ADD META6.json .
-USER raku
 
 #Preinstall
 RUN zef install --deps-only .

@@ -1,7 +1,7 @@
 # Raku Container Action
 
-This is a container actions that uses Raku (a.k.a Perl 6) to run tests
-on your code. Add file just like this one to your `.github/workflows`
+This is a container action that uses Raku (a.k.a Perl 6) to run tests
+on your code. Add a file just like this one to your `.github/workflows`
 directory, calling it `test.yml` or whatever
 
 ```yaml

@@ -5,6 +5,5 @@ USER root
 RUN mkdir /test
 VOLUME /test
 WORKDIR /test
-USER raku
 
 ENTRYPOINT raku -v && zef install --deps-only . && zef test .
