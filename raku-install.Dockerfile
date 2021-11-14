@@ -1,4 +1,4 @@
-FROM JJ/alpine-raku:latest
+FROM jj/alpine-raku:latest
 LABEL version="1.0.3" maintainer="JJ Merelo <jjmerelo@GMail.com>"
 
 USER root
